@@ -1,0 +1,88 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f73b75a9-8c76-4837-810d-fc85271eb484)
+
+  (paper "A4")
+
+  (title_block
+    (title "LFO NFF Test Board")
+    (date "2023-09-09")
+    (rev "1")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 92.71 27.94) (size 12.7 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 23197934-6a15-45cc-ae05-ab21b43ce849)
+    (property "Sheetname" "Power" (at 92.71 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 92.71 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lfo-nff"
+        (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 71.12 27.94) (size 12.7 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2656211d-de56-4eec-8f6f-9a7b5fc6251c)
+    (property "Sheetname" "DAC" (at 71.12 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dac.kicad_sch" (at 71.12 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lfo-nff"
+        (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 27.94) (size 12.7 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 86f64431-d0c4-4b8f-9c27-9ef976c762cc)
+    (property "Sheetname" "MCU" (at 25.4 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 25.4 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lfo-nff"
+        (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 46.99 27.94) (size 13.97 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d9cea1cd-56e5-4c86-934b-0b0be75bb6c4)
+    (property "Sheetname" "ADC" (at 46.99 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "adc.kicad_sch" (at 46.99 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "lfo-nff"
+        (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
