@@ -25,7 +25,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "5"))
       )
     )
@@ -42,7 +42,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "4"))
       )
     )
@@ -59,7 +59,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "2"))
       )
     )
@@ -76,7 +76,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484" (page "3"))
       )
     )

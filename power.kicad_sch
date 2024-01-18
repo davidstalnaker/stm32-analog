@@ -1316,7 +1316,7 @@
     (pin "1" (uuid 5df95225-dd69-414a-bffc-47b68f135ef2))
     (pin "2" (uuid ff90cbb9-37ad-4c33-9b24-a10eb016c6ca))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "U7") (unit 1)
         )
@@ -1342,7 +1342,7 @@
     (pin "1" (uuid 257b6b67-b605-48fe-a598-d0993fe5c0f7))
     (pin "2" (uuid 64e18125-e077-41f8-8f77-461159230917))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "J15") (unit 1)
         )
@@ -1367,7 +1367,7 @@
     )
     (pin "1" (uuid 4a4e3d7e-0b0d-42e8-82db-ac60eaa117f8))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0183") (unit 1)
         )
@@ -1392,7 +1392,7 @@
     )
     (pin "1" (uuid 85c899c9-40e9-486a-a3e4-26de9ec3f8fb))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0178") (unit 1)
         )
@@ -1421,7 +1421,7 @@
     (pin "1" (uuid b386dd74-d6df-4a4d-b4b7-4434b2c7ade8))
     (pin "2" (uuid 00d5378a-69d6-47b9-83df-a337ae7ce968))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "R53") (unit 1)
         )
@@ -1446,7 +1446,7 @@
     )
     (pin "1" (uuid ad5375a7-a344-4fa5-91a4-778931027e87))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0180") (unit 1)
         )
@@ -1475,7 +1475,7 @@
     (pin "1" (uuid 177c20fe-710a-49e7-a138-783585e38c79))
     (pin "2" (uuid 3ede0cc9-1f23-4d2e-a810-71992c249e55))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C46") (unit 1)
         )
@@ -1504,7 +1504,7 @@
     (pin "1" (uuid 08d507c9-1d3a-4ff6-88bd-7ab0617a0668))
     (pin "2" (uuid 6a204dea-0af4-4353-9bc5-118d62a3b7d2))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "D3") (unit 1)
         )
@@ -1529,7 +1529,7 @@
     )
     (pin "1" (uuid 60c126b9-3ff2-4361-a3fa-78d3ea49d96d))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0185") (unit 1)
         )
@@ -1554,7 +1554,7 @@
     )
     (pin "1" (uuid b57c6fef-d503-47a9-8a39-2f74549fa8b7))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0187") (unit 1)
         )
@@ -1583,7 +1583,7 @@
     (pin "1" (uuid 959c9802-7a72-4d16-bbd5-a0552b3ac4f6))
     (pin "2" (uuid 6dd91cdc-cb83-4361-984e-c17e8f483fc9))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C47") (unit 1)
         )
@@ -1612,7 +1612,7 @@
     (pin "1" (uuid cfc8c97f-b2d2-44ce-8ef0-8051ce1f1a35))
     (pin "2" (uuid 1c818775-769a-45c7-9fc2-fba5022056f5))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "R55") (unit 1)
         )
@@ -1641,7 +1641,7 @@
     (pin "1" (uuid d6c16011-ebf9-4e9f-b355-6d796630d212))
     (pin "2" (uuid 0040d376-fae1-4317-ba68-f29864a5ce3b))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C42") (unit 1)
         )
@@ -1670,7 +1670,7 @@
     (pin "1" (uuid aaba3eaf-f1d9-4431-baf1-774c1a7f473b))
     (pin "2" (uuid d85559ce-61ea-403e-93f4-0faecb00949c))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "R54") (unit 1)
         )
@@ -1700,7 +1700,7 @@
     (pin "2" (uuid 901c2741-0585-4b82-854f-7c2755772d82))
     (pin "3" (uuid 25ab48a8-a965-445c-8e75-d2b1603adb69))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "U5") (unit 1)
         )
@@ -1725,7 +1725,7 @@
     )
     (pin "1" (uuid 70d342f4-141f-4f42-8f1b-68ac4dd584c1))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0175") (unit 1)
         )
@@ -1751,7 +1751,7 @@
     (pin "1" (uuid c27e66c4-025a-4434-ba45-c9b1348f325f))
     (pin "2" (uuid da280876-f74c-4f4c-8bcc-1fe217a3995b))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "J17") (unit 1)
         )
@@ -1777,7 +1777,7 @@
     (pin "1" (uuid 5ade8b0b-56d9-4f25-ae2e-78c8b0dbf93a))
     (pin "2" (uuid 640b22a9-b5ec-484a-a838-0207cae622fd))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "J18") (unit 1)
         )
@@ -1806,7 +1806,7 @@
     (pin "1" (uuid 2a186eae-44e2-4824-874e-7764d00a8764))
     (pin "2" (uuid d69d83bf-ffce-4c38-ac95-2cdf6242542d))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "D4") (unit 1)
         )
@@ -1831,7 +1831,7 @@
     )
     (pin "1" (uuid 0ad64433-bc1b-4ab7-995a-33659f46acf4))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0176") (unit 1)
         )
@@ -1860,7 +1860,7 @@
     (pin "1" (uuid 448f6eef-3e4f-496b-ac01-53c9bf2a0eff))
     (pin "2" (uuid 69c1eba2-0662-42d6-8ae9-3701d7de454d))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C43") (unit 1)
         )
@@ -1885,7 +1885,7 @@
     )
     (pin "1" (uuid ae719960-edb4-4b95-8945-8a33468c50db))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0177") (unit 1)
         )
@@ -1914,7 +1914,7 @@
     (pin "1" (uuid 93ff446a-f215-4bcd-a60c-a216232396b9))
     (pin "2" (uuid d46b6a58-a677-4184-bd40-207ff52e57fe))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "D2") (unit 1)
         )
@@ -1943,7 +1943,7 @@
     (pin "1" (uuid 1db03d0c-e358-4b53-9c00-4604202b672c))
     (pin "2" (uuid e3dc410b-9155-4ffd-ac51-bcd672f4b609))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C45") (unit 1)
         )
@@ -1980,7 +1980,7 @@
     (pin "8" (uuid 275f9a0b-bffe-4aed-b24f-d797c1ec1799))
     (pin "9" (uuid 54d7c335-4bc2-4e6d-b686-6445a93af37c))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "J14") (unit 1)
         )
@@ -2005,7 +2005,7 @@
     )
     (pin "1" (uuid 6d2946ab-1456-4ca4-8f43-09a6b0482fef))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "#PWR0179") (unit 1)
         )
@@ -2034,7 +2034,7 @@
     (pin "1" (uuid 00eda3cd-0211-44e9-a9f6-2ec8d507ae6b))
     (pin "2" (uuid 7021ec7a-447e-412c-8ac4-bb5a37edc74f))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "D1") (unit 1)
         )
@@ -2060,7 +2060,7 @@
     (pin "1" (uuid 0ddf9df5-8d75-4ae6-8e10-e336404fca5b))
     (pin "2" (uuid e3deeaa6-0c86-42a0-ad82-e9401e973baf))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "J19") (unit 1)
         )
@@ -2089,7 +2089,7 @@
     (pin "1" (uuid 6df76ad8-5716-4dbd-8e18-1c6dfc2b48b2))
     (pin "2" (uuid d7e3cebe-67dd-4ae2-a098-a626b63d0575))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C41") (unit 1)
         )
@@ -2115,7 +2115,7 @@
     (pin "1" (uuid 484ae1b0-c1bd-4ee5-ac37-723590909064))
     (pin "2" (uuid c81b6eaa-bf74-4946-949c-387ab4a4e13b))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "J16") (unit 1)
         )
@@ -2145,7 +2145,7 @@
     (pin "2" (uuid 7584c291-4ff7-4649-841e-09453feb2db1))
     (pin "3" (uuid 821b6fd9-5e2f-4d71-b92a-d0a50355ae15))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "U6") (unit 1)
         )
@@ -2174,7 +2174,7 @@
     (pin "1" (uuid 179a3ccc-ae8f-41fb-b2a9-b8c6a6a27ac2))
     (pin "2" (uuid 5261e005-6a46-4f28-bdc5-5716780701f9))
     (instances
-      (project "lfo-nff"
+      (project "stm32-analog"
         (path "/f73b75a9-8c76-4837-810d-fc85271eb484/23197934-6a15-45cc-ae05-ab21b43ce849"
           (reference "C44") (unit 1)
         )
