@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "LFO NFF Test Board")
-    (date "2023-09-09")
-    (rev "1")
+    (title "STM32 Analog Breakout")
+    (date "2024-01-17")
+    (rev "A")
   )
 
   (lib_symbols
