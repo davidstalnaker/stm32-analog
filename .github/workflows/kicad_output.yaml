@@ -1,0 +1,28 @@
+name: kicad_output
+
+on:
+  push:
+    paths:
+      - "**.kicad_sch"
+      - "**.kicad_pcb"
+  pull_request:
+    paths:
+      - "**.kicad_sch"
+      - "**.kicad_pcb"
+
+jobs:
+  kicad_output:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: INTI-CMNB/KiBot@v2_k7
+        with:
+          config: output.kibot.yaml
+          dir: kicad_output
+          schema: "stm32-analog.kicad_sch"
+          board: "stm32-analog.kicad_pcb"
+      - name: upload results
+        uses: actions/upload-artifact@v2
+        with:
+          name: kicad_output
+          path: kicad_output

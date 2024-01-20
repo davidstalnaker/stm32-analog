@@ -1,0 +1,132 @@
+# KiBot config.  Generates fabrication files, interactive BOM, and schematic PDF.
+
+kibot:
+  version: 1
+
+globals:
+  resources_dir: ci
+
+variants:
+  - name: rotated
+    comment: "Just a place holder for the rotation filter"
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint
+
+outputs:
+  - name: gerbers
+    comment: Gerbers
+    type: gerber
+    dir: gerbers
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: true
+      plot_footprint_values: false
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      disable_aperture_macros: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      subtract_mask_from_silk: true
+    layers:
+      - F.Cu
+      - In1.Cu
+      - In2.Cu
+      - B.Cu
+      - F.Paste
+      - B.Paste
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: drill
+    comment: Drill files
+    type: excellon
+    dir: gerbers
+    options:
+      pth_and_npth_single_file: false
+      pth_id: "-PTH"
+      npth_id: "-NPTH"
+      metric_units: false
+      output: "%f%i.%x"
+
+  - name: gerbers_zip
+    comment: Zip all gerber and drill files together
+    type: compress
+    dir: "./"
+    options:
+      output: "%f-gerbers.%x"
+      files:
+        - from_output: gerbers
+          dest: /
+        - from_output: drill
+          dest: /
+
+  - name: ibom
+    comment: Interactive BOM
+    type: ibom
+    dir: "./"
+    options:
+      dark_mode: true
+      name_format: "index"
+
+  - name: "position"
+    comment: "Pick and place file"
+    type: position
+    dir: "./"
+    options:
+      variant: rotated
+      output: "%f-cpl.%x"
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: true
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+
+  - name: "bom"
+    comment: "BOM CSV"
+    type: bom
+    dir: "./"
+    options:
+      output: "%f-%i.%x"
+      ref_separator: ","
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - Footprint
+        - field: "Quantity Per PCB"
+          name: "QTY"
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: "schematic"
+    comment: "Print schematic PDF"
+    type: pdf_sch_print
+    dir: "./"
+    options:
+      color_theme: dracula
+      background_color: true
